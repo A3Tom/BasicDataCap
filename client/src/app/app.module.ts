@@ -5,12 +5,17 @@ import { HttpModule }    from '@angular/http';
 import { AppComponent }  from './app.component';
 import { Routing }       from './app.routing';
 
+import { LandingPageComponent, NavbarComponent, SidebarComponent } from './Shared/index';
+
 
 @NgModule({
   imports:      [ BrowserModule,
                   Routing,
                   HttpModule ],
-  declarations: [ AppComponent ],
+  declarations: [ AppComponent,
+                  LandingPageComponent,
+                  NavbarComponent,
+                  SidebarComponent ],
   bootstrap:    [ AppComponent ]
 })
 

@@ -1,10 +1,12 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { LandingPageComponent } from './Shared/index';
+
 const appRoutes: Routes = [
     {
         path: '',
-        //component: SearchComponent
+        component: LandingPageComponent
     },
 ];
 

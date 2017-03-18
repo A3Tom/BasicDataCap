@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavbarComponent } from './Shared/index';
 
 @Component({
   moduleId: module.id,
